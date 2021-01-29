@@ -1,25 +1,181 @@
 
-h1{
-    text-align: center;
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
-h2{
-    text-align: center;
-}
-h3{
-    text-align: center;
-}
-p{
-    text-align: center;
-}
-.login {
-    border: 1px solid orange;
-}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-select{
-    margin-left: 725px;
 
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 1.5;
+	background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	font-family: Montserrat;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.container {
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: .5rem;
+	padding-right: .5rem;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+/*navbar*/
+
+nav {
+	width: 100%;
+	font-family: Montserrat;
+	background-color: #2C3E50;
+	color: #fff;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	position: fixed;
+}
+
+#logo-box {
+	float: left;
+	padding-top: .5rem;
+}
+
+#logo-box .logo {
+	color: #fff;
+	font-weight: 700;
+	font-size: 3.2rem;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+	display: inline-block;
+}
+.logo:hover {
+    background-color:#18BC9C;
+}
+.photo {
+    float: left;
+    margin: 2px 2px 2px 2px;
+    background: #f7f5ed;
+    border: 1px solid #cccabc;
+
+    max-width: 50px;
+}
+#nav-links {
+	float: right;
+}
+
+#nav-links .nav-item {
+	float: left;
+	margin: .4rem;
+}
+
+#nav-links .nav-link {
+	color: #fff;
+	font-size: 1.6rem;
+	font-weight: 700;
+	display: block;
+	padding: 1.6rem;
+	letter-spacing: .1rem;
+	transition: color .3s;
+}
+
+#nav-links .nav-link:hover {
+	color: #18bc9c;
+}
+
+
+/*Header*/
+
+header {
+	background-color: #18BC9C;
+	padding-top:calc(112px + 10rem); 
+	padding-bottom: 112px;
+	text-align: center;
+}
+
+header h1 {
+	color:  #fff;
+	font-size: 7.6rem;
+}
+.student_information {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 85px;
+	left: 350px;
+	background-color: rgb(215, 228, 233);
+	border: 1px solid;
+}
+
+.info {
+	background-color: #dfe8f6;
+	position: fixed;
+	width: 350px;
+	height: 100%;
+	top: 85px;
+	border: 1px solid;
+}
+#communication{
+	padding: 30px;
+}
+#profile{
+	padding: 10px;
+}
+.pp {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+	display: inline-block;
+}
+.pp:hover {
+    background-color:#18BC9C;
+}
+.profile_pic {
+    float: left;
+    margin: 2px 2px 2px 2px;
+    background: #f7f5ed;
+    border: 1px solid #cccabc;
+
+    max-width: 100px;
+}
+.intern_application {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 85px;
+	left: 350px;
+	background-color: rgb(215, 228, 233);
+	border: 1px solid;
 }
